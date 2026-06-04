@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>HUASUE - D - Packaging / Trade</name>
+    <Style id="style_D">
+      <IconStyle>
+        <color>ff808080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Sam's</name>
+      <description>&lt;b&gt;Phone:&lt;/b&gt; 2886 8885, 2886 8899, 2886 8800, 2886 6611, 2886 1116&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; Shop H I, R/C, Block 1, Jardim Hang Kei, 248 Rua de Bruxelas, Macau; G/P, Lai Un Building, 12D Fatrada de Adolfo Loureire, Macau; Rua de Fernão Medes Pinto, Situa-se no espaço n.º 3 da Antiga Fábrica de Panchões Iec Long, Taipa, Macau; No 112 Praceta do Museu de Macau, Administration Building 5/F Platform, Macau; Shop G08, G/E, Grand Lisboa Palace, Rua do Tiro, Cotai, Macau&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Retail store / Shop chain (multiple locations in Macau)</description>
+      <styleUrl>#style_D</styleUrl>
+      <Point>
+        <coordinates>113.551414,22.175760,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cube 9 Company</name>
+      <description/>
+      <styleUrl>#style_D</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HESCO SOLUTION CO.,LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; K&amp;#x27; Rita&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; MARKETING DEPARTMENT&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66(0) 34 469 500 to 3, +66 64 585 1878, +66 991597447&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; marketing@hescosolution.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.hescosolution.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 67 Moo 4 Klongmaduea, Krathumbaen, Samutsakhon 74110&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food industry solutions provider (inferred from exhibition context)</description>
+      <styleUrl>#style_D</styleUrl>
+      <Point>
+        <coordinates>100.279263,13.551033,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>iRPC</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Manlika Phuangngamphan&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Assistance Technical Service Unit Manager, Technical Service &amp;amp; Product Development Div., Petrochemical Business Sales Dept.&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66 (0) 2765 7000, +66 (0) 6 5717 9883&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; manlika.ph@irpc.co.th&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; https://polimaxx.irpc.co.th&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 555/2 Energy Complex Building B, 6th Floor, Vibhavadi Rangsit Road, Chatuchak, Bangkok 10900 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Petrochemicals, Technical Service &amp;amp; Product Development</description>
+      <styleUrl>#style_D</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HOOF</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; JESSE&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; MEAT MASTER CHEF&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; HOOF.BKK&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; THE HUB PHAHOL-ARI PHANOLYOTHIN RD.</description>
+      <styleUrl>#style_D</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHINKOU CORPORATION</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; BANJONG SINTHAVARAYAN&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Managing Director&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66898909978&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; Banjong.skc@gmail.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; อาคารรังนาการ ชั้นที่ 9 เลขที่ 3 ถนนสาทรใต้ แขวงยานนาวา เขตสาทร กรุงเทพมหานคร 10120</description>
+      <styleUrl>#style_D</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>WHITE RX STUDIO</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; BiwPharzy&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; CEO&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 0922499050&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; inoeurfx@gmail.com</description>
+      <styleUrl>#style_D</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
