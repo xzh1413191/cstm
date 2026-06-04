@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>HUASUE - A - Strategic Partners</name>
+    <Style id="style_A">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>THONG POON FOODS Limited partnership</name>
+      <description>&lt;b&gt;Address:&lt;/b&gt; Lamphun&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food packaging solutions supplier for food brands, food factories, and OEM factories&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们注意到贵司已在为高端市场提供IML礼盒。我们在IML技术上能做到全包覆高清印刷和更复杂的结构密封设计，专门针对果干防潮保鲜和长途运输优化，可以共同开发下一代的明星礼盒产品。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>98.967490,18.266142,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAMROIYOD CORP.,LTD. FruitJoy</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; THANITTHA SAMRAN&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Sales Coordinator&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (66) 02-9345459&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; export@samroiyod.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.samroiyod.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 1381 SOI LADPHRAO 94, PLUBPLA, WANGTHONGLANG, BANGKOK 10310&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Fruit processing and export&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 以“为Fruit Joy品牌打造具有专利防拆封保护和顶级印刷质感的可持续水果包装解决方案”为切入点，重点推介PP防盗扣+IML印刷容器组合。...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thai Royal Frozen Food Co.,Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; PAILIN SURIWONG&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Research and Development Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66 34 423 302-4, +66 87 182 9924&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; pailin@thairoyalfrozen.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.thairoyalfrozen.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 119/99 Moo 1 Vichienchodok Road, Tambon Tachin, Mueang Samut Sakhon, Samut Sakhon 74000 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Frozen food export enterprise, aquaculture, R&amp;amp;D&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(低) | IML Container(高) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 具体话术方向（一句话）...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.258587,13.570819,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UTF UNITY FOOD CO.,LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; MONTHIRA PIMSARN&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Assistant Export Division&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (662) 840 0056 - 58, (662) 840 0500 - 9&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; utf@unityfood.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; http://www.unityfood.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 427/1 Chinwong Food Building, Rama 2 Road, Samaedam, Bangkhunthien, Bangkok, Thailand 10150&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; MANUFACTURER AND EXPORTER&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 以‘为您的全球出口脱水水果提供从防潮保护到品牌提升的一站式PP包装解决方案’为核心，首先推荐高性价比的PP密封餐盒和能极大提升品牌价值的IML包装。...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aromade</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; WICHITPON A. (MIKE)&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Managing Director&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66 76 688 225, +66 88 789 6515&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; wichitpon@aromadespice.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 1 Chaloemphrakiat Rama 9 Soi 30, Dokmai Pravet 10250 Bangkok Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Premium Freeze-Dried Herbs and Spices&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(中)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们为许多出口美国的高端食品品牌服务，理解货架竞争的关键。我们的IML技术可以让您的包装像产品一样高级，图案永不脱落，同时全包覆设计能有效避光保香；如果您追求极致的通透感，我们也有顶级的PET容器方案，两种都能确保密封性，经得起长途运输。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Namchow (Thailand) Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Irinraya Wechpracha&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Senior Sales Manager - Export&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66 (0) 2033 7800 Ext. 7866, +66 (0) 80 898 9366&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; irinraya.ex@namchow.co.th&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; http://www.namchow.co.th&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 75/27-29, 18-19th Floor, Ocean Tower 2, Soi Sukhumvit 19 (Wattana), Sukhumvit Road, North Klongtoey, Wattana, Bangkok 10110 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food industry supplier or manufacturer (inferred from exhibition context and certifications)&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(低) | IML Container(中) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 针对您易碎、怕潮的米饼和儿童零食，我们主推带密封盖的食品级PP餐盒，它能提供最佳的抗压防碎保护和防潮密封性，同时成本可控，是替换或升级现有内包装的理想方案。...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>F&amp;N United Limited</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Pruet Yuttayanon&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; International Business Development Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (66)2 895 7071-78, (66)8 6555 2912&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; pruety@fnnfoods.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.magnoliaicecreamth.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 95 Thakarm Road, Samaedam, Bangkhuntien, Bangkok 10150, Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturing, OEM contract production (ice cream)&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(低) | IML Container(高) | pp_food_container(中)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 具体话术方向（一句话）...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thai Summit Marketing</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Jarucha Suwanno&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Assistant Sales Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (+66)88-868-7441, (+66)2-577-5064&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; jarucha.s@thaisummitmarketing.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.thaisummitmarketing.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 29/5 Moo.14 Bueng Kham Phroi, Lam Luk Ka, Pathum Thani. 12150&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Marketing/Advertising&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 以“为您的Grill Choice及出口产品线提供耐冻耐微波、且能大幅提升品牌价值的IML印刷PP餐盒解决方案”作为核心切入点。...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.808062,13.992706,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mylifebrary Co.,Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; VILAWAN LAYANUN&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +668-977-96917&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; gm@mylifebrary.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.mylifebrarysnack.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 62/6 Moo3. Klong Nueng Subdistrict, Khlong Luang District, Pathum Thani 12120 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Snack food manufacturer (popcorn)&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们注意到Joe&amp;#x27;s Popcorn的品牌潜力，我们的IML+PP密封罐方案，不仅能完美防潮保脆，还能将您的品牌视觉直接‘烙印’在罐身上，大幅提升礼品线和商超货架的吸引力。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.564041,14.048667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nature Zelection Co.,Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Janejira Jaiboon&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Purchasing Officer&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 080 282 1286, +66 2042 8167&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; purchasing@musehomemaed.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.musehomemade.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 17/1 Moo. 3 , Om Kret, Pak Kret, Nonthaburi 11120 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturer (ice cream, homemade products)&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(低) | IML Container(高) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们理解高端冰淇淋在冷冻柜中脱颖而出的压力，我们的IML技术可以直接将您的艺术设计变成包装，而我们的PP品脱盒能为您的OEM客户控制成本，两者都专为冷冻环境设计。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.497433,13.912070,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>floria foods</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; MUJEEB RAHMAN&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; General Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +971 58 140 1174, +971 6 520 8291&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; mujeeb@floriafoods.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; floriafoods.com&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturer or distributor (inferred from &amp;#x27;floria foods&amp;#x27; and context of food industry exhibition)&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(中)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们专注于为像您这样的高端食品出口商提供一体化包装方案，我们的IML技术能让您的产品在货架上瞬间吸引目光，同时确保长途运输后的完好品质。您提到的800ml和1800ml容量，我们也有成熟的PET或PP方案可以快速提供样品。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Buono (Thailand) Public Company Limited</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Worawarin Sanpulsup&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Chief of Commercial Officer&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66(0)34 331 984-6, +66(0)34 331 880, +66(0)86 388 4800, +66(0)97 824 6289&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; worawarin@buonothailand.com, worawarin.s@gmail.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.buonogroup.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 104/2, Village No.1, Thaiyawat Sub-district, Nakhon Chai Si District, Nakhon Pathom Province 73120 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food industry company (inferred from exhibition context)&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(高)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们注意到贵司拥有IFS等严苛认证，我们的IML和PP餐盒生产线同样遵循最高食品安全标准，并能通过高清印刷和耐用结构，帮助您的品牌在货架上脱颖而出并确保物流安全。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>100.181776,13.813721,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mrs. Bector's Food Specialities Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Alok Ranjan&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Regional Head - Far East &amp;amp; Australasia&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (124) 4096300, +91 9955697919&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; alok.ranjan@bectorfoods.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.bectorfoods.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; Emaar Digital Greens Tower-A, 1st Floor, Unit No. 22-27, Golf Course Extension Road, Sector 61, Gurugram, Haryana - 122102 (India)&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturing / Food specialities&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(中) | IML Container(高) | pp_food_container(中)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们专注于为像Cremica这样的领先品牌提供从模具设计到高清印刷的一体化IML包装，帮助您的产品在远东和澳新市场的货架上脱颖而出，同时确保食品安全和运输可靠性。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 高</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>77.029919,28.464615,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Julie's Manufacturing Sdn. Bhd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Siak Chin Keong&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Manager (Business Development)&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +6012 623 2360, +606 556 1401&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; cksiak@julies.com.my&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.julies.com.my&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; AG 6876, Alor Gajah Industrial Estate, 78000 Alor Gajah, Melaka, Malaysia.&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturing</description>
+      <styleUrl>#style_A</styleUrl>
+      <Point>
+        <coordinates>102.210780,2.383453,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
