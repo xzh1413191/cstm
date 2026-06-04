@@ -1,0 +1,423 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>HUASUE - C - Food Mfg / OEM</name>
+    <Style id="style_C">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>KHAO BUATIP PRODUCE CO., LTD. and KHAO BUATIP MARKETING CO., LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Preenapa Wongsrikaew&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; International Sales Representative&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (+66) 43 370 333, (+66) 85 012 7713&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; sales_usa@kcrice.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.buatiprice.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 163 Moo 4 Khon Kaen-Kalasin Rd., Bungnium, Muang, Khon Kaen 40000 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Rice production and marketing&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(低) | IML Container(中) | pp_food_container(低)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 具体话术方向（一句话）...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 低</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>102.635293,16.602239,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FOOD AND MORE INTERTRADE CO.,LTD. ORGANIC NATURAL FAIR TRADE CO.,LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; ATISS CHAIYAKAL&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; MANAGING DIRECTOR&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +668 8829 4659, +666 5495 6494&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; ac@sungrainsinternational.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 44/46 Moo.10 T.Khlong Song A.Khlong Luang PathumThani 12120 Thailand.&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food ingredients supplier&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(低) | IML Container(中) | pp_food_container(中)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 具体话术方向（一句话）...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 低</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.670346,14.103395,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Synature Ingredients</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Saraporn Munier&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Managing Director&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +33(0)612269988&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; Smunier@synatureingredients.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 5 rue Emile Lescuyer, 51100 Reims, France&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food ingredients supplier&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(低) | IML Container(低) | pp_food_container(中)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们为许多食品品牌提供包装，了解到配料商有时也需要向客户提供高品质的样品容器来展示产品特性，我们的小规格PP或PET容器在密封性和外观上可能适合您的需求。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 低</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>4.031926,49.257789,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHIH CHEN FOODS CO., LTD</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Betty Chu&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Executive Assistant to President&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +886 932 621129, +886 4 23587898#331, +886 4 24068009&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; e03@pm0315.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 15F., No. 847, Sec. 4, Taiwan Blvd., Taichung City, Taiwan. fty.No. 506, Dongxing Rd., Dali Dist, Taichung City.&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturing&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(不适用) | IML Container(不适用) | pp_food_container(中)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; 具体话术方向（一句话）...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 中</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>120.644867,24.158624,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BO &amp; BO FOOD (THAILAND) CO.,LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Tony&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; CEO&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +86 188 5920 0382&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; 631935284@qq.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 198 SOI BANJADSAN, HUAIPONG-NONGBON ROAD, MAPKHA SUB-DISTRICT, NIKHOM PHATTHANA DISTRICT, RAYONG 21180&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturing or distribution company in Thailand&lt;br&gt;&lt;br&gt;&lt;b&gt;Self-made:&lt;/b&gt; PP Tamper-Evident(不适用) | IML Container(不适用) | pp_food_container(中)&lt;br&gt;&lt;b&gt;Trade:&lt;/b&gt; pet_jar() | pet_display_box() | special_shaped_container()&lt;br&gt;&lt;b&gt;Pitch:&lt;/b&gt; “我们作为泰国本地的注塑包装专家，不仅能提供像PP餐盒这样符合本地餐饮需求的可靠方案，还能根据您产品的具体特性（比如是否需要展示、防潮或特殊形状），提供从PP到PET的一站式定制方案。”...&lt;br&gt;&lt;b&gt;Potential:&lt;/b&gt; 中</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>101.370534,12.794372,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UNIFIRMS Co.,Ltd</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Saponyos Juenglerdphaisarn&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Marketing/Sales Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66 89 966 4291&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; Saponyos.unifirms@gmail.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.unifirms.co.th&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 99/99 Moo 5 Pantainorrasing Road, Tambol Pantainorrasing, Amphur Muang-Samutsakorn, Samutsakorn 74000 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food industry supplier or manufacturer (inferred from exhibition context and company name &amp;#x27;Unifirms&amp;#x27; which may relate to food packaging or processing)</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.501800,13.756300,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Unknown</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Chakkrit Wibunlaksanakun&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +6695 929 6669&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; kidscandy99@gmail.com&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food industry (inferred from exhibition context)</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LITTLE FARM GLOBAL CO., LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; PATSITA ISAREEKANIN&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; EXPORT SALES MANAGER&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (66) 89 890 4651, (66 2) 149 4115 to 6&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; patsita@littlefarmthailand.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.littlefarmthailand.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 24/5 Moo13 Soi Thongkum Tambon Bangmaenang Amphor Bangyai Nontaburi 11140 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food export company specializing in lychee products</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>98.358047,7.903102,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RVARU TRADE</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Seyran Valiev&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Director&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +994 50 215 03 18&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; seyran_veliev@mail.ru, rvarutrade@gmail.com&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food Production and Trading</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>47.787251,40.393629,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CHO HENG RICE VERMICELLI FACTORY CO.,LTD.</name>
+      <description>&lt;b&gt;Business:&lt;/b&gt; Rice flour and rice vermicelli manufacturing</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tulip</name>
+      <description>&lt;b&gt;Business:&lt;/b&gt; Food manufacturing / Bakery supplies</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ANDAMAN</name>
+      <description>&lt;b&gt;Address:&lt;/b&gt; IMPACT Exhibition and Convention Center, Mueang Thong Thani, Hall 4, Booth No. 4-E49</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>V.THAI FOOD PRODUCT CO.,LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Pum&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; MADAM&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; FOOD</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SUNNEW FOOD CO., LTD.</name>
+      <description>&lt;b&gt;Business:&lt;/b&gt; Food manufacturer or supplier</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SUNNEW Food Co., Ltd.</name>
+      <description>&lt;b&gt;Phone:&lt;/b&gt; +66 061 164 1666&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; sunnew666888@gmail.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 10/2 Moo 6, Liap Khlong Si Wa Phasawat Road, Khok Krabue Sub-district, Mueang Samut Sakhon District, Samut Sakhon Province 74000 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturing company specializing in packaged baked goods</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.258587,13.570819,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Song Heng</name>
+      <description>&lt;b&gt;Business:&lt;/b&gt; Food producer / Pickled specialties</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GreenVille</name>
+      <description>&lt;b&gt;Business:&lt;/b&gt; Food manufacturer (snacks)</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MARINA CASHEW NUTS</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Marina&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 087-955-9362, 087-9559362&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; mareena.dn1@gmail.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 4/3 ม.4 ต.อ่าวลึกน้อย อ.อ่าวลึก จ.กระบี่&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Cashew nuts distributor or producer</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>98.792384,8.391924,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HAROI FOOD CO., LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Mato Goodmilk&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 099-3857575&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; Haroifood@gmail.com&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food &amp;amp; Beverage Manufacturer</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SOUTHERN BLACK KANGAROO CO., LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; รินดา ทายทองผาภ&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 089-8893204&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; teerawutmoo45@gmail.com&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Processed Seafood</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SUNSNACK FOODTECH CO.,LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; พลอย&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (+6681) 399-7781, (+6685) 687-5005, (+662) 814-9172-3, 095 6566987&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; sunsnack_ft@hotmail.com, sunsnack_sales@hotmail.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; SUNSNACK-FOODTECH.COM&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; Head Office: 146/13 Moo 1 T.Kaerai A.Krathumban Samutsakorn 74110 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Freeze-dried fruit and food products manufacturer, OEM</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TAMARIND NI SAKUN LIMITED PARTNERSHIP</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; NI SAKUN&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +668 3165 6370, +669 6641 3529&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; nikunpornsitikarn@gmail.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 28 Moo 12, Wang Ban, Lomkao, Phetchabun 6720, Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Producing and distributing tamarind products</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.955275,16.329317,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Baan Piyawan</name>
+      <description>&lt;b&gt;Business:&lt;/b&gt; Food manufacturer / Traditional pastry producer</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JIRAPORN FACTORY</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; JIRAPORN&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food processing / Banana product manufacturer</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nine Tamarind</name>
+      <description>&lt;b&gt;Website:&lt;/b&gt; suksommaifood.com&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Tamarind producer or supplier</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.955275,16.329317,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Perfect Espresso</name>
+      <description>&lt;b&gt;Phone:&lt;/b&gt; 02 754 4161&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.outletocoffee.com&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Coffee supplier / Coffee equipment and products</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Baraba Krabi Co., Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Thanet Tongtree&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66987986541&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; thanet_tongtree@hotmail.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.bababakrabi.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 320 Moo 3, Klong Kamao, Neur Klong, Krabi 81130&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; SHRIMP PASTE</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Khunmaeju Co.,Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Phichamon Tongtan (ช่อฟ)&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Purchase assistant manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 081-893-4436, (66 76) 621 226-7&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; purchase2482@gmail.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.khunmaejuphuket.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 159/21 Moo.5, Thepkrasattri Rd., Thalang, Phuket 83110&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Manufacturer and Distributor of Phuket Local Product and dry sea food product</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AGROX SOLUTIONS</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; PETCHARAT TIMKUM&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; CO-FOUNDER &amp;amp; CEO&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66 95-496-5478&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; AGROXSOLUTIONS@GMAIL.COM&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 2/3 MOO.3 RATHANATHIBREAT RD. BANGRAKYAI BANGBUATHONG NONTHABURI 11110, THAILAND</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bee Products THAI</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; ARLAMPANG KHRUEASAI DUANG (MAPANG)&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Marketing &amp;amp; Customer Relations Officer&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (66) 94 626 9141, (66) 87 207 1333&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; bpimk001@gmail.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; @beeproductsthai</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fabrica De Alimentos Sam's Workshop</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Wendy PANG&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Sales Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (853) 2882 8882&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; sams.workshop.mo@gmail.com</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Buchro Community Enterprise</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Nana&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 083 511 3138&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; nanafish_official&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; ต.นาปะขอ อ.บางแก้ว จ.พัทลุง 93140&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Fishery/Seafood Processing (Herbal Fish Product)</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.671408,13.647268,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SUKJAI PLAKARN FARM CO.,LTD.</name>
+      <description>&lt;b&gt;Phone:&lt;/b&gt; 081-4335041, 081-7058599&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Aquaculture/Fish Farming</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TAMARIND NISAKUN LIMITED PARTNERSHIP</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; NIKUNPORN SOPABUN (POM)&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; MANAGING DIRECTOR&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 6683-165-6370, 6696-641-3529, 0831656370&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; nikunpornsri1kham@gmail.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 28 Moo 12, WangKan, Lomkao, Phetchabun 6720, Thailand</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DO FOOD CO.,LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; FRANK LAU&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; ACCOUNT MANAGER&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66 (88) 838-3788, +662 462-8133-9&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; frank@dofood.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.dofood.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 118 MOO 6, SUKSAWAD 76 RD., BANGJAK, PHRAPRADAENG, SAMUTPRAKARN 10130, THAILAND&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Manufacturer</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.532987,13.659078,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Yoong Panyaa Co., Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Patima Rojjanatan&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Sales Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66 951648225&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; Yoongpanyaa@gmail.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; Gin Happy Snacks, gin.happysnacks, @gin.happysnacks&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 10, Moo 4, Bang Tin Pet, Mueang Chachoengsao District, Chachoengsao 24000&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food manufacturing / Snacks production</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>101.546720,13.609319,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>B-BEST INTER SERVICE CO., LTD.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; SUREE PATTARAPISITPONG&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; DIRECTOR&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (66)2 360 6170-1 EXT. 17, (66)2 738 6967, (66)81 985 2028&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; suree@bbestinter.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.bbestinter.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; Head Office 108/1 LUAPKLONGMON RD., THAPYAO, LATKRABANG, BANGKOK 10520&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; CONSOLIDATION SPECIALIST - CANNED FRUIT, VEGETABLE, RICE &amp;amp; BEAN, FOODSTUFFS, BEVERAGES, MISCELLANEOUS</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AL-Dayfe Food Industries Company</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Mohamed Salah Mohamed&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; General Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +966 557953576&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; m.salah@aldayfe.com&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food Industries</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>42.352833,25.624262,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bangkok Fine Foods</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Sasithorn Kongwittayakom&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Supply Chain&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (+66) 94 442 9553&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; purchase@bff.co.th&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food distributor or manufacturer specializing in dairy products</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Daowthong Shop</name>
+      <description>&lt;b&gt;Phone:&lt;/b&gt; 036-725-202&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food retail and production, specializing in pork stuffing and frozen foods</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.832730,14.897192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BestDeal Online Co., Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; MR.CLARK WANG&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Managing Director&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 0883-611-0186, 083-040-5674&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; wjqclark@gmail.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; www.foodee99.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; เลขที่ 9/45 ซอยศรีนครินทร์ 46/1 ถนนศรีนครินทร์ แขวงหนองบอน เขตประเวศ กรุงเทพฯ 10250&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food Import and Distribution</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alliance Food Expert Co.,Ltd.</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Muchyaneesiriprawatkul (Jenny)&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Export Sales Executive&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; (+66) 95 535 6462, (+66) 0 2006 7235, 095 535 6462&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; Jenny@munchroom.co.th&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 42/6 Moo 4 Bang ko Bua, Phra Pradang, Samut Prakan, 10130 Thailand&lt;br&gt;&lt;b&gt;Business:&lt;/b&gt; Food export</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.818258,13.653165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seafresh Gourmet</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Thanjira Boonyim&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Marketing &amp;amp; Sales Supervisor&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +9567054945, +6627708888, +66857054945&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; thanjira@seafreshgourmet.com, purchase@foodproject.co.th, thangthai@sea-freshgroup.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; seafreshgourmet.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 152/25 Chartered Square Bldg., 31st Fl, North Sathon Rd., Silom, Bangrak, Bangkok, 10500</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HUA SENG HONG DIM SUM</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; MUI&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66929564951, +6620451545&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; sale@huasenghongdimsum.com&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; mu-ibakery.com, huasenghongdimsum.com, huasenghongfoodservice.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; No. 63 Village No. 1, Sisa Chorakhe Yai Subdistrict, Bang Sao Thong District, Samut Prakan Province 10570</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.818258,13.653165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Teerapatra Foods</name>
+      <description>&lt;b&gt;Phone:&lt;/b&gt; +6620498795, +6620498798, +66817541864, +66811740294&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; teerapatrafoods&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 33/9 moo 11, Hiong Khai, Pakkret, Nonthaburi 11120</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.345677,13.861092,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FOODWORKS</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Onuma Keittirassamee&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Sourcing Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66969292594&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; sourcing@foodworks.co.th&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; foodworks.co.th, foodworksdelivery.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 2532 Trok Nokket, Rama 3 Road, Bangklo, Bangkoklaem, Bangkok 10120</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KHAOPONG FARM</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; LALITA CHAROENBUN&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; SALES&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +66943216850&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; Lalita_sale@khaopongkarm.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 55/5 Moo 3, Tha Plub Subdistrict, Ban Pho District, Chachoengsao 24140</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>101.546720,13.609319,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FOOD WAY</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Thanapon Kumngam&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Area Sales Manager&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 0968972225&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; foodwaylimited.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 36 Soi Suphapong 1 Yak 3-3, Nong Bon, Prawet, Bangkok 10250</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kingwell First</name>
+      <description>&lt;b&gt;Phone:&lt;/b&gt; +66034498535&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 318 Moo 5, Khok Kham, Mueang Samut Sakhon, 74000 Thailand</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.282563,13.541228,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Viya Crab</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Suwichai Tumwich&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; รองกรรมการผู้จัดการ&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; +6677454883, +6677454884, +6677229001, +66819704560&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; jae0011@hotmail.com, jae0011@viyacrabproducts.co.th&lt;br&gt;&lt;b&gt;Website:&lt;/b&gt; viyacrabproducts.co.th&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 75/2 Moo 2, Tambon Phutthamonthon, Amphoe Phutthamonthon, Changwat Nakhon Pathom 84110</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.016566,13.891842,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3M FOOD PRODUCT</name>
+      <description>&lt;b&gt;Contact:&lt;/b&gt; Nureen Choothai&lt;br&gt;&lt;b&gt;Title:&lt;/b&gt; Supervisor Export Sales and Marketing&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 0215897835, 0641649356&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; export@3mfoodproduct.com&lt;br&gt;&lt;b&gt;Address:&lt;/b&gt; 316/39 หมู่บ้านนิเวศน์นนท์ ซอยลาดพร้าว 87 แขวงลาดพร้าว แขวงลาดพร้าว</description>
+      <styleUrl>#style_C</styleUrl>
+      <Point>
+        <coordinates>100.493509,13.752494,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
