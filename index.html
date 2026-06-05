@@ -38,6 +38,13 @@ body { font-family: -apple-system, 'Segoe UI', 'PingFang SC', sans-serif; backgr
 .score-label { display: block; font-size: 0.68rem; color: #94a3b8; }
 .score-val { display: block; font-size: 0.95rem; font-weight: 700; }
 .cert-tag { background: #eff6ff; color: #1d4ed8; padding: 2px 8px; border-radius: 10px; font-size: 0.72rem; margin: 2px; display: inline-block; }
+.add-contacts { margin-top: 8px; background: #f0f9ff; border-radius: 8px; padding: 8px 10px; border-left: 3px solid #38bdf8; }
+.add-contacts-title { font-size: 0.74rem; font-weight: 700; color: #0369a1; margin-bottom: 6px; }
+.add-contact-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 0.8rem; padding: 4px 0; border-bottom: 1px solid #e0f2fe; }
+.add-contact-row:last-child { border-bottom: none; }
+.add-contact-name { font-weight: 600; color: #1e293b; }
+.add-contact-title { color: #0369a1; font-style: italic; }
+.add-contact-info { color: #475569; }
 .biz-tag { background: #f0fdf4; color: #166534; padding: 2px 8px; border-radius: 10px; font-size: 0.72rem; margin: 2px; display: inline-block; }
 .card-body { display: flex; gap: 0; }
 .card-image-col { width: 200px; flex-shrink: 0; padding: 12px; border-right: 1px solid #f1f5f9; }
@@ -107,10 +114,9 @@ body { font-family: -apple-system, 'Segoe UI', 'PingFang SC', sans-serif; backgr
   <div class="header-top">
     <div>
       <h1>🏭 HUASUE 展会客户管理系统 v2.0</h1>
-      <div class="header-sub">最后更新：2026-06-04 13:19 · Qwen3-VL OCR + DeepSeek-V3 深度调研</div>
+      <div class="header-sub">最后更新：2026-06-05 14:19 · Qwen3-VL OCR + DeepSeek-V3 深度调研</div>
     </div>
     <button class="export-btn" onclick="exportCSV()">📊 导出 CSV</button>
-    <a href="map.html" class="export-btn" style="text-decoration:none;display:inline-block;">🗺️ 客户地图</a>
   </div>
   <div class="stats-bar">
     <div class="stat-chip">总计 <span class="stat-val">149</span> 家</div>
@@ -158,7 +164,7 @@ body { font-family: -apple-system, 'Segoe UI', 'PingFang SC', sans-serif; backgr
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150148_207_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150148_207_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -194,6 +200,7 @@ FINE SPICES & HERBS
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">1 Chaloemphrakiat Rama 9 Soi 30, Dokmai Pravet 10250 Bangkok Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -286,7 +293,7 @@ FINE SPICES & HERBS
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150240_242_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150240_242_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -329,6 +336,7 @@ Sedex</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.buonogroup.com" target="_blank">www.buonogroup.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">104/2, Village No.1, Thaiyawat Sub-district, Nakhon Chai Si District, Nakhon Pathom Province 73120 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -421,7 +429,7 @@ Sedex</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150155_214_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150155_214_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -464,6 +472,7 @@ www.magnoliaicecreamth.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.magnoliaicecreamth.com" target="_blank">www.magnoliaicecreamth.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">95 Thakarm Road, Samaedam, Bangkhuntien, Bangkok 10150, Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -559,7 +568,7 @@ www.magnoliaicecreamth.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150238_239_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150238_239_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -587,6 +596,7 @@ floria foods.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://floriafoods.com" target="_blank">floriafoods.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -683,7 +693,7 @@ floria foods.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152309_294_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152309_294_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -715,6 +725,7 @@ www.julies.com.my</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.julies.com.my" target="_blank">www.julies.com.my</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">AG 6876, Alor Gajah Industrial Estate, 78000 Alor Gajah, Melaka, Malaysia.</span></div>
         </div>
+        
         
       </div>
       
@@ -791,7 +802,7 @@ www.julies.com.my</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150242_244_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150242_244_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -824,6 +835,7 @@ www.bectorfoods.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.bectorfoods.com" target="_blank">www.bectorfoods.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Emaar Digital Greens Tower-A, 1st Floor, Unit No. 22-27, Golf Course Extension Road, Sector 61, Gurugram, Haryana - 122102 (India)</span></div>
         </div>
+        
         
       </div>
       
@@ -916,7 +928,7 @@ www.bectorfoods.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150226_226_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150226_226_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -952,6 +964,7 @@ whatsapp</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.mylifebrarysnack.com" target="_blank">www.mylifebrarysnack.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">62/6 Moo3. Klong Nueng Subdistrict, Khlong Luang District, Pathum Thani 12120 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -1044,7 +1057,7 @@ whatsapp</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150154_213_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150154_213_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -1090,6 +1103,7 @@ http://www.namchow.co.th</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">75/27-29, 18-19th Floor, Ocean Tower 2, Soi Sukhumvit 19 (Wattana), Sukhumvit Road, North Klongtoey, Wattana, Bangkok 10110 Thailand</span></div>
         </div>
         <span class="cert-tag">GHP</span> <span class="cert-tag">HACCP</span> <span class="cert-tag">BRC</span> <span class="cert-tag">IFS</span> <span class="cert-tag">ISO 9001</span> <span class="cert-tag">ISO 14001</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -1181,7 +1195,7 @@ http://www.namchow.co.th</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150235_236_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150235_236_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -1212,6 +1226,7 @@ f museicecream  @museicecream</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.musehomemade.com" target="_blank">www.musehomemade.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">17/1 Moo. 3 , Om Kret, Pak Kret, Nonthaburi 11120 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -1304,7 +1319,7 @@ f museicecream  @museicecream</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150140_198_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150140_198_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -1358,6 +1373,7 @@ Fruit Joy
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">1381 SOI LADPHRAO 94, PLUBPLA, WANGTHONGLANG, BANGKOK 10310</span></div>
         </div>
         <span class="cert-tag">BRGS</span> <span class="cert-tag">IFS</span> <span class="cert-tag">HACCP</span> <span class="cert-tag">HALAL</span> <span class="cert-tag">KOSHER</span> <span class="cert-tag">FAIRTRADE</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -1452,7 +1468,7 @@ Fruit Joy
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150141_199_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150141_199_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -1501,6 +1517,7 @@ GMP HACCP Organic
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">119/99 Moo 1 Vichienchodok Road, Tambon Tachin, Mueang Samut Sakhon, Samut Sakhon 74000 Thailand</span></div>
         </div>
         <span class="cert-tag">ISO/IEC 17025</span> <span class="cert-tag">BRCGS</span> <span class="cert-tag">BAP Best Aquaculture Proting</span> <span class="cert-tag">GMP</span> <span class="cert-tag">HACCP</span> <span class="cert-tag">Organic</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -1607,7 +1624,7 @@ GMP HACCP Organic
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150220_220_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150220_220_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -1638,6 +1655,7 @@ Marketing
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.thaisummitmarketing.com" target="_blank">www.thaisummitmarketing.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">29/5 Moo.14 Bueng Kham Phroi, Lam Luk Ka, Pathum Thani. 12150</span></div>
         </div>
+        
         
       </div>
       
@@ -1733,7 +1751,7 @@ Marketing
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150137_196_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150137_196_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -1767,6 +1785,7 @@ PET、PP、模具开发、ZML、包装结构设计。
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Lamphun</span></div>
         </div>
+        
         
       </div>
       
@@ -1867,7 +1886,7 @@ PET、PP、模具开发、ZML、包装结构设计。
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150144_203_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150144_203_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -1903,6 +1922,7 @@ No. / /</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">427/1 Chinwong Food Building, Rama 2 Road, Samaedam, Bangkhunthien, Bangkok, Thailand 10150</span></div>
         </div>
         <span class="cert-tag">BRCGS</span> <span class="cert-tag">Food Safety</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -1994,7 +2014,7 @@ No. / /</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150224_224_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150224_224_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2026,6 +2046,7 @@ Earth
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.3fexotic.com" target="_blank">www.3fexotic.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -2122,7 +2143,7 @@ Earth
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152330_313_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152330_313_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2154,6 +2175,7 @@ www.aldayfe-dates.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.aldayfe-dates.com" target="_blank">www.aldayfe-dates.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Saudi Arabia - Al Qassim</span></div>
         </div>
+        
         
       </div>
       
@@ -2233,7 +2255,7 @@ www.aldayfe-dates.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195057_794_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195057_794_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2253,6 +2275,7 @@ www.aldayfe-dates.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://amazingtuna.com" target="_blank">amazingtuna.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">71/14 Moo 3, Bang Ya Phrach, Mueang Samut Sakhon, Samut Sakhon 74000</span></div>
         </div>
+        
         
       </div>
       
@@ -2329,7 +2352,7 @@ www.aldayfe-dates.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150153_212_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150153_212_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2358,6 +2381,7 @@ baili.co.th</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://baili.co.th" target="_blank">baili.co.th</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -2450,7 +2474,7 @@ baili.co.th</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195100_796_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195100_796_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2470,6 +2494,7 @@ baili.co.th</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://bangkokseafood.co.th" target="_blank">bangkokseafood.co.th</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Pursue Excellence</span></div>
         </div>
+        
         
       </div>
       
@@ -2546,7 +2571,7 @@ baili.co.th</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152317_301_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152317_301_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2587,6 +2612,7 @@ PROFESSIONAL CHOCOLATES</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://WWW.CHARLESCHARLOTTE.CO.TH" target="_blank">WWW.CHARLESCHARLOTTE.CO.TH</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">55/65 Moo 3, Tambon Lamlukka, Amphoe Lamlukka, Pathumthani 12150 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -2663,7 +2689,7 @@ PROFESSIONAL CHOCOLATES</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150216_215_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150216_215_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2704,6 +2730,7 @@ HC Group→华人体系</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">224 Moo 9, Wiangkalong, Wiangpapao, Chiangrai, Thailand 57260</span></div>
         </div>
         <span class="cert-tag">FSSC 22000</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -2798,7 +2825,7 @@ HC Group→华人体系</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152256_282_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152256_282_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2850,6 +2877,7 @@ www.chitaorganicfood.co.th</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">299 M.7 Nakornjedee Pasang Lamphun 51120</span></div>
         </div>
         <span class="cert-tag">USDA ORGANIC</span> <span class="cert-tag">JAS</span> <span class="cert-tag">TH-BIO-132</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -2925,7 +2953,7 @@ www.chitaorganicfood.co.th</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152337_319_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152337_319_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -2959,6 +2987,7 @@ Line ID: kul-bmw</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.chuahahseng.com" target="_blank">www.chuahahseng.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">26/12 Moo 2, Song Khanong, Sam Phran, Nakhon Pathom, 73210</span></div>
         </div>
+        
         
       </div>
       
@@ -3035,7 +3064,7 @@ Line ID: kul-bmw</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150150_209_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150150_209_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -3071,6 +3100,7 @@ Fresh</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.cityfreshfruit.com" target="_blank">www.cityfreshfruit.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">8 Karnchanapisek Road, Klong Bangbon, Bangbon, Bangkok 10150 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -3163,7 +3193,7 @@ Fresh</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152321_305_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152321_305_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -3197,6 +3227,7 @@ OUG
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="http://www.daieitaigen.com" target="_blank">http://www.daieitaigen.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">120 Kasemkij Bldg., 5th Floor, Room 507, Silom Road, Suriyawong, Bangrak, Bangkok 10500 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -3276,7 +3307,7 @@ OUG
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150225_225_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150225_225_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -3305,6 +3336,7 @@ WeChat</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">44/89 Phutthamonthon Sai 1 Rd., Chimpli, Taling Chan, Bangkok, Thailand 10170</span></div>
         </div>
+        
         
       </div>
       
@@ -3397,7 +3429,7 @@ WeChat</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150218_217_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150218_217_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -3433,6 +3465,7 @@ P.O. Box: 34255 Dubai, UAE
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">DOFREEZE L.L.C. 16003, F&B Zone, Dubai Industrial City, Sheikh Mohammed Bin Zayed Road. P.O. Box: 34255 Dubai, UAE</span></div>
         </div>
+        
         
       </div>
       
@@ -3531,7 +3564,7 @@ P.O. Box: 34255 Dubai, UAE
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150221_221_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150221_221_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -3570,6 +3603,7 @@ DONG WOO
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.greennuts.com" target="_blank">www.greennuts.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">14-7, Mugap-gil 124beon-gil, Chowol-eup, Gwangju-si, Gyeonggi-do, Republic of Korea, 12730</span></div>
         </div>
+        
         
       </div>
       
@@ -3662,7 +3696,7 @@ DONG WOO
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195034_775_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195034_775_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -3682,6 +3716,7 @@ DONG WOO
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://flowerfood.com" target="_blank">flowerfood.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">523 Soi Rammitra 5, Rammitra Rd., Tharang, Bangkhen</span></div>
         </div>
+        
         
       </div>
       
@@ -3758,7 +3793,7 @@ DONG WOO
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195053_791_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195053_791_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -3778,6 +3813,7 @@ DONG WOO
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://msc.org" target="_blank">msc.org</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">NO.28,HUA CHUNG RD. TA-LIAO DIST., KAOHSIUNG CITY,83164</span></div>
         </div>
+        
         
       </div>
       
@@ -3854,7 +3890,7 @@ DONG WOO
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150145_204_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150145_204_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -3888,6 +3924,7 @@ e 1 / 1</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.globalmarinefoods.com" target="_blank">www.globalmarinefoods.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">32/13 Moo 2 Bangyaphrak Mueang Samutsakhon 74000 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -3980,7 +4017,7 @@ e 1 / 1</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150231_232_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150231_232_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -4012,6 +4049,7 @@ WeChat
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.gzlaili.en.alibaba.com" target="_blank">www.gzlaili.en.alibaba.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">No. 68, Heting Middle Road, Heting Village, Renhe Town, Baiyun District, Guangzhou City, Guangdong Province (near Baiyun Airport)</span></div>
         </div>
+        
         
       </div>
       
@@ -4104,7 +4142,7 @@ WeChat
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152242_270_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152242_270_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -4138,6 +4176,7 @@ GHP/HACCP</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">#901, 3, HWANGSAEUL-RO 240, SEONGNAM-SI, GYEONGGI-DO, KOREA</span></div>
         </div>
         <span class="cert-tag">GHP</span> <span class="cert-tag">HACCP</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -4213,7 +4252,7 @@ GHP/HACCP</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152247_274_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152247_274_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -4238,6 +4277,7 @@ Hanmaru Co., Ltd.</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -4314,7 +4354,7 @@ Hanmaru Co., Ltd.</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152248_275_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152248_275_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -4358,6 +4398,7 @@ Tel)82-70-4403-7715</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">#901, 3, HWANGSAEUL-RO 240BEON-GIL, BUNDANG-GU, SEONGNAM-SI, GYEONGGI-DO, REPUBLIC OF KOREA</span></div>
         </div>
         <span class="cert-tag">GLUTEN FREE</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -4433,7 +4474,7 @@ Tel)82-70-4403-7715</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152305_291_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152305_291_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -4457,6 +4498,7 @@ Hanmaru Co., Ltd.</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -4533,7 +4575,7 @@ Hanmaru Co., Ltd.</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150229_229_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150229_229_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -4629,6 +4671,7 @@ www.biscotteriaorion.it
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">15F., No. 9, Lane 217, Sec. 2, Anhe Rd., Xindian Dist., New Taipei City 231, Taiwan</span></div>
         </div>
         
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -4720,7 +4763,7 @@ www.biscotteriaorion.it
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152303_289_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152303_289_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -4751,6 +4794,7 @@ Tel)82-70-4403-7715</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">#901, 3, HWANGSAEUL-RO 240BEON-GIL, BUNDANG-GU, SEONGNAM-SI, GYEONGGI-DO, REPUBLIC OF KOREA</span></div>
         </div>
+        
         
       </div>
       
@@ -4827,7 +4871,7 @@ Tel)82-70-4403-7715</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150219_219_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150219_219_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -4859,6 +4903,7 @@ HACCP
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">201, Uljindaege-ro, Hupo-myeon, Uljin-gun, Gyeongsangbuk-do, Korea 〒36369</span></div>
         </div>
         <span class="cert-tag">HACCP</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -4950,7 +4995,7 @@ HACCP
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150217_216_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150217_216_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5011,6 +5056,7 @@ No.
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Head Office: 846, 848 Soi Charansanitwong 75, Bangphat, Bangkok, Bangkok 10700, Thailand. Factory: 88/1 Moo. 7, Latiumkaeo, Pathumthani 12140, Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -5120,7 +5166,7 @@ ESG vegan、功能
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150232_233_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150232_233_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5156,6 +5202,7 @@ T</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">58/76 , Moo.3 , Khlong Kluea , Pak Kret , Nonthaburi 11120 , Thailand</span></div>
         </div>
         <span class="cert-tag">SGS</span> <span class="cert-tag">F55C 2000</span> <span class="cert-tag">GLOBALG.A.P.</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -5247,7 +5294,7 @@ T</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152307_292_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152307_292_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5294,6 +5341,7 @@ y Bizcuit • Start your day with My Bizcuit • Start your day with My Bizcuit 
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Factory 1: Mtk 83, Batu 4 ¾, Sungai Mati, 84400 Tangkak, Johor, Malaysia. Factory 2: MRTK/C/32 Lot 759, Batu 5, Rawang, Jalan Sungai Mati, 84400 Ledang, Johor, Malaysia.</span></div>
         </div>
         <span class="cert-tag">FSSC 22000</span> <span class="cert-tag">HALAL</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -5369,7 +5417,7 @@ y Bizcuit • Start your day with My Bizcuit • Start your day with My Bizcuit 
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195040_781_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195040_781_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5389,6 +5437,7 @@ y Bizcuit • Start your day with My Bizcuit • Start your day with My Bizcuit 
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://seamenow.co" target="_blank">seamenow.co</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -5465,7 +5514,7 @@ y Bizcuit • Start your day with My Bizcuit • Start your day with My Bizcuit 
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195045_785_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195045_785_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5485,6 +5534,7 @@ y Bizcuit • Start your day with My Bizcuit • Start your day with My Bizcuit 
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://lamoon-group.com" target="_blank">lamoon-group.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -5561,7 +5611,7 @@ y Bizcuit • Start your day with My Bizcuit • Start your day with My Bizcuit 
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152241_269_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152241_269_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5630,6 +5680,7 @@ WWW.SONGHENG.CO.TH</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
         <span class="cert-tag">HALAL</span> <span class="cert-tag">GHP</span> <span class="cert-tag">HACCP</span> <span class="cert-tag">THAI FDA REGISTRATION</span> <span class="cert-tag">US FDA REGISTRATION</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -5705,7 +5756,7 @@ WWW.SONGHENG.CO.TH</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150252_254_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150252_254_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5744,6 +5795,7 @@ BUREAU VERITAS
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Head Office 11/1,11/2 Bangkuntien-Chaitalay Rd, Samaedum, Bangkuntien, Bangkok 10150</span></div>
         </div>
         <span class="cert-tag">HACCP/GMP</span> <span class="cert-tag">ISO 9001:2015</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -5819,7 +5871,7 @@ BUREAU VERITAS
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150228_228_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150228_228_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5874,6 +5926,7 @@ ISO 22000</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">101 Cecil Street, #20-07, Tong Eng Building, Singapore 069533</span></div>
         </div>
         <span class="cert-tag">FSSC 22000</span> <span class="cert-tag">BRCGS</span> <span class="cert-tag">ISO 22000</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -5965,7 +6018,7 @@ ISO 22000</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150246_248_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150246_248_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -5995,6 +6048,7 @@ www.millionfoods.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.millionfoods.com" target="_blank">www.millionfoods.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">45/45 Moo 6, Soi Rungpreecha, Setthakit Road, Muangsamutsakhon, Samutsakhon 74000 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -6071,7 +6125,7 @@ www.millionfoods.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150147_206_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150147_206_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -6110,6 +6164,7 @@ No. / /</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.mylifebrarysnack.com" target="_blank">www.mylifebrarysnack.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">62/6 Moo3. Klong Nueng Subdistrict, Khlong Luang District, Pathum Thani 12120 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -6202,7 +6257,7 @@ No. / /</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152236_265_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152236_265_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -6257,6 +6312,7 @@ TEL: 02-921-7047 FAX: 02-921-7068 EMAIL: napapornc75@yahoo.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.bandtahnbuk.com" target="_blank">www.bandtahnbuk.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">70/4 ซ.วัลโธรม้า ถ.รัตนาธิเบศร์ ต.บางรักน้อย อ.เมือง จ.นนทบุรี 11000</span></div>
         </div>
+        
         
       </div>
       
@@ -6333,7 +6389,7 @@ TEL: 02-921-7047 FAX: 02-921-7068 EMAIL: napapornc75@yahoo.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150136_195_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150136_195_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -6367,6 +6423,7 @@ OEM 价值翻倍
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">#168 St 1015 Phum Poung Peay Sangkat Phnom Penh Thmey Khan Sensok Phnom Penh Cambodia</span></div>
         </div>
+        
         
       </div>
       
@@ -6467,7 +6524,7 @@ OEM 价值翻倍
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150142_201_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150142_201_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -6499,6 +6556,7 @@ A-</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.nangpaya.com" target="_blank">www.nangpaya.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">56 หมู่ที่ 3 ต.บางเดือน อ.พุนพิน จ.สุราษฎร์ธานี 84130</span></div>
         </div>
+        
         
       </div>
       
@@ -6597,7 +6655,7 @@ A-</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150249_251_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150249_251_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -6635,6 +6693,7 @@ Email: nbf@nbf-group.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.nbfthailand.com" target="_blank">www.nbfthailand.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">592/2 Moo 17, Theparak Rd. KM.24, Bangsaothong, Samutprakan 10570</span></div>
         </div>
+        
         
       </div>
       
@@ -6711,7 +6770,7 @@ Email: nbf@nbf-group.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152301_287_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152301_287_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -6759,6 +6818,7 @@ HALL 12
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -6835,7 +6895,7 @@ HALL 12
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150248_250_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150248_250_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -6872,6 +6932,7 @@ CANDY</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.hackscandy.com" target="_blank">www.hackscandy.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">15/2 ซ.เหล่าลดา ถ.อรุณอมรินทร์ แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพฯ 10700</span></div>
         </div>
+        
         
       </div>
       
@@ -6948,7 +7009,7 @@ CANDY</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195041_782_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195041_782_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -6968,6 +7029,7 @@ CANDY</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.papafeverth.com" target="_blank">www.papafeverth.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -7044,7 +7106,7 @@ CANDY</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195048_787_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195048_787_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -7064,6 +7126,7 @@ CANDY</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">6/155 Moo 6, Tambon Kathu, Amphur Kathu, Phuket 83120 (PRS)</span></div>
         </div>
+        
         
       </div>
       
@@ -7140,7 +7203,7 @@ CANDY</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150239_240_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150239_240_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -7170,6 +7233,7 @@ RAMA FOODS CO., LTD.
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">5/55 Na-Ranong Road, Klong-Toey, Bangkok 10110, Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -7262,7 +7326,7 @@ RAMA FOODS CO., LTD.
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152312_297_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152312_297_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -7295,6 +7359,7 @@ thanatchav@mealmatefoods.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">104 หมู่7 ตำบลบางพลีน้อย อำเภอบางบ่อ สมุทรปราการ 10560</span></div>
         </div>
+        
         
       </div>
       
@@ -7371,7 +7436,7 @@ thanatchav@mealmatefoods.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152259_285_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152259_285_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -7422,6 +7487,7 @@ Bhavnagar, Gujarat, INDIA
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.rmpeanutbutter.com" target="_blank">www.rmpeanutbutter.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Survey No. 171/1, Haripara Road, Village- Taveda, Ta.- Mahuva-364230, Dist.- Bhavnagar, Gujarat, INDIA</span></div>
         </div>
+        
         
       </div>
       
@@ -7501,7 +7567,7 @@ Bhavnagar, Gujarat, INDIA
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150240_241_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150240_241_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -7544,6 +7610,7 @@ SCAN ME</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.rmfoods.net" target="_blank">www.rmfoods.net</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">S.N. 171/1 Haripara Road, Village - Taveda, Mahuva-364290, Dist. - Bhavnagar, Gujarat (India)</span></div>
         </div>
+        
         
       </div>
       
@@ -7636,7 +7703,7 @@ SCAN ME</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150142_200_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150142_200_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -7671,6 +7738,7 @@ PP 金扁鱼</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">41/1 M001 Thungkha District, Amphur Muang Chumphon, 86100 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -7769,7 +7837,7 @@ PP 金扁鱼</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150152_211_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150152_211_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -7794,6 +7862,7 @@ www.sarach.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.sarach.com" target="_blank">www.sarach.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -7886,7 +7955,7 @@ www.sarach.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150243_245_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150243_245_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -7921,6 +7990,7 @@ Malaysia.</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Lot 11776, Jalan Kg. Banjar, 36000 Teluk Intan, Perak, Malaysia.</span></div>
         </div>
+        
         
       </div>
       
@@ -7997,7 +8067,7 @@ Malaysia.</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152246_273_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152246_273_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -8033,6 +8103,7 @@ SUPERIOR TASTE AWARD</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">7 Soi Rewadee 9 Taladkwan Muang, Nonthaburi, Thailand</span></div>
         </div>
         <span class="cert-tag">FSSC 22000</span> <span class="cert-tag">SMETA</span> <span class="cert-tag">Sedex</span> <span class="cert-tag">HALAL</span> <span class="cert-tag">Thai SELECT</span> <span class="cert-tag">INTERNATIONAL TASTE INSTITUTE 2025 SUPERIOR TASTE AWARD</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -8108,7 +8179,7 @@ SUPERIOR TASTE AWARD</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150219_218_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150219_218_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -8141,6 +8212,7 @@ Tax ID : 0105558138768</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.siamfood.co.th" target="_blank">www.siamfood.co.th</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">290-290/1, TCC Building, 6th Floor, Surawong Road, Si Phraya, Bangrak, Bangkok 10500, Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -8233,7 +8305,7 @@ Tax ID : 0105558138768</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150146_205_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150146_205_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -8279,6 +8351,7 @@ Date __________ / __________ / __________</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">HEAD OFFICE: 55/43 M.2, Pekasem Road, Tartalad, Sampran, Nakornpatom 73110, Thailand
 FACTORY: 22 M.11, Haadkham, Kuiburi, Prachaub-kiri-khan 77150, Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -8371,7 +8444,7 @@ FACTORY: 22 M.11, Haadkham, Kuiburi, Prachaub-kiri-khan 77150, Thailand</span></
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195104_800_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195104_800_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -8391,6 +8464,7 @@ FACTORY: 22 M.11, Haadkham, Kuiburi, Prachaub-kiri-khan 77150, Thailand</span></
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://smcfruit.com" target="_blank">smcfruit.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">8/88 Moo 3 T.Klongnueng, Klongluang, Pathumthani 12120</span></div>
         </div>
+        
         
       </div>
       
@@ -8467,7 +8541,7 @@ FACTORY: 22 M.11, Haadkham, Kuiburi, Prachaub-kiri-khan 77150, Thailand</span></
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150234_235_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150234_235_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -8529,6 +8603,7 @@ Fax. +66(0)2-026-3413</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.siamrungruang.com" target="_blank">www.siamrungruang.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">1/68 Moo3, Nadee, Mueang Samut Sakhon, Samut Sakhon, 74000</span></div>
         </div>
+        
         
       </div>
       
@@ -8621,7 +8696,7 @@ Fax. +66(0)2-026-3413</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150138_197_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150138_197_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -8660,10 +8735,11 @@ PET透明罐、PET展示盒</div>
           <div class="info-row"><span class="info-label">职位</span><span class="info-val"><span class="editable" contenteditable="true" data-field="title">Factory Manager</span></span></div>
           <div class="info-row"><span class="info-label">电话</span><span class="info-val">+66 98 269 9774 | +66 95 269 9974</span></div>
           <div class="info-row"><span class="info-label">邮箱</span><span class="info-val">akkora.m@spenterprisecintl.com | Akkaram.sp@gmail.com</span></div>
-          <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.spenterprisecinternational.com" target="_blank">www.spenterprisecinternational.com</a></span></div>
+          <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.spenterprisecinternational.com" target="_blank">www.spenterprisecinternational.com</a> | <a href="https://www.spenterpriseintl.com" target="_blank">www.spenterpriseintl.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">75 Moo 7 Soi Prachasamran2, NongChok, Bangkok, Thailand 10530</span></div>
         </div>
         
+        <div class="add-contacts"><div class="add-contacts-title">👥 其他联系人</div><div class="add-contact-row"><span class="add-contact-name">Nahatai Chiangpradit</span><span class="add-contact-title">Head of Operation & International Business</span><span class="add-contact-info">nahatai.c@spenterpriseintl.com</span></div></div>
       </div>
       
       <!-- Handwritten Notes -->
@@ -8763,7 +8839,7 @@ PET透明罐、PET展示盒</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152314_299_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152314_299_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -8796,6 +8872,7 @@ www.srifabakery.co.th
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.srifabakery.co.th" target="_blank">www.srifabakery.co.th</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -8875,7 +8952,7 @@ www.srifabakery.co.th
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150253_255_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150253_255_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -8909,6 +8986,7 @@ www.sriwanna-preservefoods.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.sriwanna-preservefoods.com" target="_blank">www.sriwanna-preservefoods.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">100/134 Soi Phutthamonthon Sai 2 Soi 24, Sala Thammasop, Thawi Watthana, Bangkok 10170</span></div>
         </div>
+        
         
       </div>
       
@@ -8985,7 +9063,7 @@ www.sriwanna-preservefoods.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150244_246_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150244_246_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -9015,6 +9093,7 @@ Your Trusted Gummies & Jellies Manufacturer</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="http://www.starsunfoods.com" target="_blank">http://www.starsunfoods.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">101 MOO 1, Sraphang, Khaoyoi, Phetchaburi, Thailand 76140</span></div>
         </div>
+        
         
       </div>
       
@@ -9091,7 +9170,7 @@ Your Trusted Gummies & Jellies Manufacturer</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150151_210_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150151_210_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -9131,6 +9210,7 @@ f 0 0 stwthaisnacks</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.stw-groups.com" target="_blank">www.stw-groups.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">17/6 Moo10 Klongkhoi Pak Kret Nonthaburi 11120 THAILAND</span></div>
         </div>
+        
         
       </div>
       
@@ -9223,7 +9303,7 @@ f 0 0 stwthaisnacks</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152300_286_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152300_286_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -9288,6 +9368,7 @@ suksommaifood.com</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
         <span class="cert-tag">OTOP</span> <span class="cert-tag">bsi GHPs Food Safety Management CERTIFIED</span> <span class="cert-tag">حلال</span> <span class="cert-tag">THE ISLAMIC COMMITTEE OFFICE OF THAILAND</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -9363,7 +9444,7 @@ suksommaifood.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152243_271_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152243_271_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -9400,6 +9481,7 @@ Domestic market: ✉ sa@stfi.co.th | Export market: ✉ sales.manag</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.sunflourtokachi.com" target="_blank">www.sunflourtokachi.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">101/46 MOO 13 SOI 14 KLONGNUENG, KONGLUANG, PATHUMTHANI 12120 THAILAND</span></div>
         </div>
+        
         
       </div>
       
@@ -9476,7 +9558,7 @@ Domestic market: ✉ sa@stfi.co.th | Export market: ✉ sales.manag</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152226_257_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152226_257_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -9569,6 +9651,7 @@ Tel. / WhatsApp : +666-5691-9599, +666-1672-2514, +6681-489-9323</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
         
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -9644,7 +9727,7 @@ Tel. / WhatsApp : +666-5691-9599, +666-1672-2514, +6681-489-9323</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150222_222_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150222_222_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -9699,6 +9782,7 @@ www.thaiparadisofoods.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.thaiparadisofoods.com" target="_blank">www.thaiparadisofoods.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">133 Boromrajchachonnaneer Road 2, Bangbumru Bangplai Bangkok 10700 THAILAND</span></div>
         </div>
+        
         
       </div>
       
@@ -9779,7 +9863,7 @@ www.thaiparadisofoods.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152302_288_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152302_288_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -9847,6 +9931,7 @@ QR Code (visible but not readable as text)</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">19 ซอยพัฒนาการ 70 ถนนพัฒนาการ แขวงบางนา เขตบางนา กรุงเทพฯ 10250</span></div>
         </div>
         <span class="cert-tag">Halal</span> <span class="cert-tag">FDA</span> <span class="cert-tag">GMP</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -9925,7 +10010,7 @@ QR Code (visible but not readable as text)</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150143_202_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150143_202_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -9967,6 +10052,7 @@ any ongoing packaging development projects</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.cfcthailand.com" target="_blank">www.cfcthailand.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">24/458 Moo 3, Bang Ya Phraek, Mueang District, Samut Sakhon Province 74000 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -10069,7 +10155,7 @@ any ongoing packaging development projects</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150149_208_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150149_208_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10103,6 +10189,7 @@ www.thitinancood.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.thitinancood.com" target="_blank">www.thitinancood.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">58,58/2 Moo.10 Rama2 Rd., Bang Thorat, Mueang Samut Sakhon 74000</span></div>
         </div>
+        
         
       </div>
       
@@ -10195,7 +10282,7 @@ www.thitinancood.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150227_227_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150227_227_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10225,6 +10312,7 @@ Selangor, Malaysia.</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">10, Jalan Taming 12, Taman Industries, Taming Jaya, 43300 Seri Kembangan, Selangor, Malaysia.</span></div>
         </div>
+        
         
       </div>
       
@@ -10317,7 +10405,7 @@ Selangor, Malaysia.</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150230_230_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150230_230_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10353,6 +10441,7 @@ F +886-5-295 6519
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">622011 嘉義縣大林鎮大埔美園區五路 3 號</span></div>
         </div>
+        
         
       </div>
       
@@ -10445,7 +10534,7 @@ F +886-5-295 6519
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195052_790_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195052_790_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10465,6 +10554,7 @@ F +886-5-295 6519
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">95, Soi Suan Luang1, Wang Mai, Pathumwan, Bangkok, Thailand 10330</span></div>
         </div>
+        
         
       </div>
       
@@ -10541,7 +10631,7 @@ F +886-5-295 6519
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195047_786_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195047_786_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10561,6 +10651,7 @@ F +886-5-295 6519
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://tunaparadise.com" target="_blank">tunaparadise.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">49/7 Moo. 7 T.Khokkloy, A.Takuatung, Phang-Nga 82140</span></div>
         </div>
+        
         
       </div>
       
@@ -10637,7 +10728,7 @@ F +886-5-295 6519
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152319_303_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152319_303_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10670,6 +10761,7 @@ http://www.v-thaifood.co.th</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">221 MOO 1 SUKSAWAD RD., PHASAMUTJEDEE, SAMUTPRAKARN 10290 THAILAND</span></div>
         </div>
         <span class="cert-tag">HACCP</span> <span class="cert-tag">SGS</span> <span class="cert-tag">GMP</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -10748,7 +10840,7 @@ http://www.v-thaifood.co.th</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195106_802_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195106_802_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10768,6 +10860,7 @@ http://www.v-thaifood.co.th</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://master-rice.com" target="_blank">master-rice.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">402 หมู่ 17 ต.บางเสาธง อ.บางเสาธง จ.สมุทรปราการ 10570</span></div>
         </div>
+        
         
       </div>
       
@@ -10844,7 +10937,7 @@ http://www.v-thaifood.co.th</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150245_247_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150245_247_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10880,6 +10973,7 @@ Director
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.wonder-food.com.my" target="_blank">www.wonder-food.com.my</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">43, Jalan I-Park 1/4, Kawasan Perindustrian I-Park, Bandar Indahpura, 81000 Kulai, Johor, Malaysia.</span></div>
         </div>
+        
         
       </div>
       
@@ -10956,7 +11050,7 @@ Director
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150237_238_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150237_238_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -10985,6 +11079,7 @@ Bin</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.ybfood.com.tw" target="_blank">www.ybfood.com.tw</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">No.189, Ansin 1st Rd, Annan Dist, Tainan, Taiwan</span></div>
         </div>
+        
         
       </div>
       
@@ -11077,7 +11172,7 @@ Bin</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195103_799_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195103_799_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11097,6 +11192,7 @@ Bin</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">316/39 หมู่บ้านนิเวศน์นนท์ ซอยลาดพร้าว 87 แขวงลาดพร้าว แขวงลาดพร้าว</span></div>
         </div>
+        
         
       </div>
       
@@ -11173,7 +11269,7 @@ Bin</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152313_298_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152313_298_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11200,6 +11296,7 @@ Handwritten Notes: (None)</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">2/3 MOO.3 RATHANATHIBREAT RD. BANGRAKYAI BANGBUATHONG NONTHABURI 11110, THAILAND</span></div>
         </div>
+        
         
       </div>
       
@@ -11276,7 +11373,7 @@ Handwritten Notes: (None)</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152329_312_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152329_312_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11305,6 +11402,7 @@ AL-Dayfe Food Industries Company</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -11381,7 +11479,7 @@ AL-Dayfe Food Industries Company</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152336_318_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152336_318_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11420,6 +11518,7 @@ Website</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">42/6 Moo 4 Bang ko Bua, Phra Pradang, Samut Prakan, 10130 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -11499,7 +11598,7 @@ Website</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152230_260_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152230_260_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11533,6 +11632,7 @@ ANDAMAN</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">IMPACT Exhibition and Convention Center, Mueang Thong Thani, Hall 4, Booth No. 4-E49</span></div>
         </div>
+        
         
       </div>
       
@@ -11609,7 +11709,7 @@ ANDAMAN</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152328_311_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152328_311_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11645,6 +11745,7 @@ www.bbestinter.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.bbestinter.com" target="_blank">www.bbestinter.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Head Office 108/1 LUAPKLONGMON RD., THAPYAO, LATKRABANG, BANGKOK 10520</span></div>
         </div>
+        
         
       </div>
       
@@ -11721,7 +11822,7 @@ www.bbestinter.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152255_281_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152255_281_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11745,6 +11846,7 @@ BAAN PIYAWAN
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -11824,7 +11926,7 @@ BAAN PIYAWAN
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152332_314_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152332_314_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11860,6 +11962,7 @@ Supply Chain</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -11939,7 +12042,7 @@ Supply Chain</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152310_295_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152310_295_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -11971,6 +12074,7 @@ SHRIMP PASTE</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.bababakrabi.com" target="_blank">www.bababakrabi.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">320 Moo 3, Klong Kamao, Neur Klong, Krabi 81130</span></div>
         </div>
+        
         
       </div>
       
@@ -12050,7 +12154,7 @@ SHRIMP PASTE</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152316_300_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152316_300_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12079,6 +12183,7 @@ LINE: @beeproductsthai</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://@beeproductsthai" target="_blank">@beeproductsthai</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -12158,7 +12263,7 @@ LINE: @beeproductsthai</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152334_316_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152334_316_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12191,6 +12296,7 @@ WECHAT</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.foodee99.com" target="_blank">www.foodee99.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">เลขที่ 9/45 ซอยศรีนครินทร์ 46/1 ถนนศรีนครินทร์ แขวงหนองบอน เขตประเวศ กรุงเทพฯ 10250</span></div>
         </div>
+        
         
       </div>
       
@@ -12267,7 +12373,7 @@ WECHAT</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150241_243_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150241_243_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12298,6 +12404,7 @@ E-mail: 631935284@qq.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">198 SOI BANJADSAN, HUAIPONG-NONGBON ROAD, MAPKHA SUB-DISTRICT, NIKHOM PHATTHANA DISTRICT, RAYONG 21180</span></div>
         </div>
+        
         
       </div>
       
@@ -12390,7 +12497,7 @@ E-mail: 631935284@qq.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152320_304_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152320_304_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12415,6 +12522,7 @@ nanafish_official
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://nanafish_official" target="_blank">nanafish_official</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">ต.นาปะขอ อ.บางแก้ว จ.พัทลุง 93140</span></div>
         </div>
+        
         
       </div>
       
@@ -12491,7 +12599,7 @@ nanafish_official
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152228_258_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152228_258_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12542,6 +12650,7 @@ CHO HENG RICE VERMICELLI FACTORY CO.,LTD.
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -12618,7 +12727,7 @@ CHO HENG RICE VERMICELLI FACTORY CO.,LTD.
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152333_315_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152333_315_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12649,6 +12758,7 @@ LINE @daowthong</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -12728,7 +12838,7 @@ LINE @daowthong</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152325_308_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152325_308_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12768,6 +12878,7 @@ THAILAND</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.dofood.com" target="_blank">www.dofood.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">118 MOO 6, SUKSAWAD 76 RD., BANGJAK, PHRAPRADAENG, SAMUTPRAKARN 10130, THAILAND</span></div>
         </div>
+        
         
       </div>
       
@@ -12844,7 +12955,7 @@ THAILAND</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152318_302_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152318_302_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12875,6 +12986,7 @@ sam's</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -12951,7 +13063,7 @@ sam's</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150231_231_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150231_231_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -12984,6 +13096,7 @@ GRAINS</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">44/46 Moo.10 T.Khlong Song A.Khlong Luang PathumThani 12120 Thailand.</span></div>
         </div>
+        
         
       </div>
       
@@ -13076,7 +13189,7 @@ GRAINS</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195054_792_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195054_792_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13096,6 +13209,7 @@ GRAINS</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://foodwaylimited.com" target="_blank">foodwaylimited.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">36 Soi Suphapong 1 Yak 3-3, Nong Bon, Prawet, Bangkok 10250</span></div>
         </div>
+        
         
       </div>
       
@@ -13172,7 +13286,7 @@ GRAINS</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152244_272_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152244_272_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13194,6 +13308,7 @@ THAI SNACK
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -13270,7 +13385,7 @@ THAI SNACK
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152250_277_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152250_277_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13334,6 +13449,7 @@ f นุกนธิย์ ผลิต-จำปาไทย
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -13410,7 +13526,7 @@ f นุกนธิย์ ผลิต-จำปาไทย
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195037_779_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195037_779_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13430,6 +13546,7 @@ f นุกนธิย์ ผลิต-จำปาไทย
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://mu-ibakery.com" target="_blank">mu-ibakery.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">No. 63 Village No. 1, Sisa Chorakhe Yai Subdistrict, Bang Sao Thong District, Samut Prakan Province 10570</span></div>
         </div>
+        
         
       </div>
       
@@ -13506,7 +13623,7 @@ f นุกนธิย์ ผลิต-จำปาไทย
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152257_283_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152257_283_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13532,6 +13649,7 @@ BANANA
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -13608,7 +13726,7 @@ BANANA
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150223_223_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150223_223_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13640,6 +13758,7 @@ sales_usa@kcrice.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.buatiprice.com" target="_blank">www.buatiprice.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">163 Moo 4 Khon Kaen-Kalasin Rd., Bungnium, Muang, Khon Kaen 40000 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -13735,7 +13854,7 @@ sales_usa@kcrice.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195051_789_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195051_789_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13755,6 +13874,7 @@ sales_usa@kcrice.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">55/5 Moo 3, Tha Plub Subdistrict, Ban Pho District, Chachoengsao 24140</span></div>
         </div>
+        
         
       </div>
       
@@ -13831,7 +13951,7 @@ sales_usa@kcrice.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152311_296_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152311_296_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13866,6 +13986,7 @@ www.khunmaejuphuket.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.khunmaejuphuket.com" target="_blank">www.khunmaejuphuket.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">159/21 Moo.5, Thepkrasattri Rd., Thalang, Phuket 83110</span></div>
         </div>
+        
         
       </div>
       
@@ -13942,7 +14063,7 @@ www.khunmaejuphuket.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195058_795_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195058_795_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -13962,6 +14083,7 @@ www.khunmaejuphuket.com
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">318 Moo 5, Khok Kham, Mueang Samut Sakhon, 74000 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -14038,7 +14160,7 @@ www.khunmaejuphuket.com
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150251_253_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150251_253_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -14075,6 +14197,7 @@ LITTLE FARM
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.littlefarmthailand.com" target="_blank">www.littlefarmthailand.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">24/5 Moo13 Soi Thongkum Tambon Bangmaenang Amphor Bangyai Nontaburi 11140 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -14154,7 +14277,7 @@ LITTLE FARM
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152249_276_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152249_276_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -14209,6 +14332,7 @@ yotkhaosuratip@gmail.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">4/3 ม.4 ต.อ่าวลึกน้อย อ.อ่าวลึก จ.กระบี่</span></div>
         </div>
+        
         
       </div>
       
@@ -14285,7 +14409,7 @@ yotkhaosuratip@gmail.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152308_293_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152308_293_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -14311,6 +14435,7 @@ JRL</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.outletocoffee.com" target="_blank">www.outletocoffee.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -14387,7 +14512,7 @@ JRL</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150253_256_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150253_256_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -14420,6 +14545,7 @@ BAND
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -14496,7 +14622,7 @@ BAND
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195034_776_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195034_776_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -14516,6 +14642,7 @@ BAND
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://seafreshgourmet.com" target="_blank">seafreshgourmet.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">152/25 Chartered Square Bldg., 31st Fl, North Sathon Rd., Silom, Bangrak, Bangkok, 10500</span></div>
         </div>
+        
         
       </div>
       
@@ -14592,7 +14719,7 @@ BAND
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150236_237_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150236_237_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -14624,6 +14751,7 @@ tel.+886 4 24068009 fax.+886 4 24063856 統編.86117471</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">15F., No. 847, Sec. 4, Taiwan Blvd., Taichung City, Taiwan. fty.No. 506, Dongxing Rd., Dali Dist, Taichung City.</span></div>
         </div>
+        
         
       </div>
       
@@ -14716,7 +14844,7 @@ tel.+886 4 24068009 fax.+886 4 24063856 統編.86117471</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152240_268_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152240_268_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -14773,6 +14901,7 @@ Song Heng catalog.</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -14849,7 +14978,7 @@ Song Heng catalog.</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152251_278_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152251_278_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -14952,6 +15081,7 @@ Product : Shrimp Paste
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
         
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -15027,7 +15157,7 @@ Product : Shrimp Paste
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152323_306_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152323_306_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15059,6 +15189,7 @@ fb สุขใจปลาเกย พาร์มปลาทับทิม
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -15138,7 +15269,7 @@ fb สุขใจปลาเกย พาร์มปลาทับทิม
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152258_284_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152258_284_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15168,6 +15299,7 @@ suksommaifood.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://suksommaifood.com" target="_blank">suksommaifood.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -15244,7 +15376,7 @@ suksommaifood.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152238_266_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152238_266_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15270,6 +15402,7 @@ SUNNEW FOOD CO., LTD.</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -15346,7 +15479,7 @@ SUNNEW FOOD CO., LTD.</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152239_267_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152239_267_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15386,6 +15519,7 @@ high-quality bakery products to wholesale partners worldwide.</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">10/2 Moo 6, Liap Khlong Si Wa Phasawat Road, Khok Krabue Sub-district, Mueang Samut Sakhon District, Samut Sakhon Province 74000 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -15462,7 +15596,7 @@ high-quality bakery products to wholesale partners worldwide.</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152252_279_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152252_279_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15535,6 +15669,7 @@ Various freeze-dried fruits and food products (e.g., durian, mango, jackfruit, e
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Head Office: 146/13 Moo 1 T.Kaerai A.Krathumban Samutsakorn 74110 Thailand</span></div>
         </div>
         <span class="cert-tag">GOOD MANUFACTURING PRACTICE (GMP)</span> <span class="cert-tag">HACCP CERTIFIED</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -15613,7 +15748,7 @@ Various freeze-dried fruits and food products (e.g., durian, mango, jackfruit, e
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150233_234_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150233_234_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15642,6 +15777,7 @@ Tel: +33(0)612269988</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">5 rue Emile Lescuyer, 51100 Reims, France</span></div>
         </div>
+        
         
       </div>
       
@@ -15734,7 +15870,7 @@ Tel: +33(0)612269988</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152253_280_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152253_280_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15776,6 +15912,7 @@ FDA Quality Award 2023-2026</div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">28 Moo 12, Wang Ban, Lomkao, Phetchabun 6720, Thailand</span></div>
         </div>
         <span class="cert-tag">GHPs</span> <span class="cert-tag">HACCP</span> <span class="cert-tag">FDA</span> <span class="cert-tag">GAP</span> <span class="cert-tag">GI</span> <span class="cert-tag">OTOP 4 STARS</span> <span class="cert-tag">FDA Quality Award 2023-2026</span>
+        
       </div>
       
       <!-- Handwritten Notes -->
@@ -15851,7 +15988,7 @@ FDA Quality Award 2023-2026</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152324_307_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152324_307_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15887,6 +16024,7 @@ Tamarind</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">28 Moo 12, WangKan, Lomkao, Phetchabun 6720, Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -15963,7 +16101,7 @@ Tamarind</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195038_780_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195038_780_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -15983,6 +16121,7 @@ Tamarind</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://teerapatrafoods" target="_blank">teerapatrafoods</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">33/9 moo 11, Hiong Khai, Pakkret, Nonthaburi 11120</span></div>
         </div>
+        
         
       </div>
       
@@ -16059,7 +16198,7 @@ Tamarind</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195049_788_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195049_788_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16079,6 +16218,7 @@ Tamarind</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://foodworks.co.th" target="_blank">foodworks.co.th</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">2532 Trok Nokket, Rama 3 Road, Bangklo, Bangkoklaem, Bangkok 10120</span></div>
         </div>
+        
         
       </div>
       
@@ -16155,7 +16295,7 @@ Tamarind</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152229_259_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152229_259_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16206,6 +16346,7 @@ EASY GLAZE</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -16282,7 +16423,7 @@ EASY GLAZE</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150247_249_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150247_249_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16316,6 +16457,7 @@ Catalog LPS</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.unifirms.co.th" target="_blank">www.unifirms.co.th</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">99/99 Moo 5 Pantainorrasing Road, Tambol Pantainorrasing, Amphur Muang-Samutsakorn, Samutsakorn 74000 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -16392,7 +16534,7 @@ Catalog LPS</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601150250_252_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601150250_252_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16418,6 +16560,7 @@ kidscandy99@gmail.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -16494,7 +16637,7 @@ kidscandy99@gmail.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152232_261_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152232_261_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16529,6 +16672,7 @@ Fresh
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -16605,7 +16749,7 @@ Fresh
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195101_797_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195101_797_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16625,6 +16769,7 @@ Fresh
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://viyacrabproducts.co.th" target="_blank">viyacrabproducts.co.th</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">75/2 Moo 2, Tambon Phutthamonthon, Amphoe Phutthamonthon, Changwat Nakhon Pathom 84110</span></div>
         </div>
+        
         
       </div>
       
@@ -16701,7 +16846,7 @@ Fresh
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152326_309_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152326_309_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16742,6 +16887,7 @@ District, Chachoengsao 24000</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://Gin Happy Snacks" target="_blank">Gin Happy Snacks</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">10, Moo 4, Bang Tin Pet, Mueang Chachoengsao District, Chachoengsao 24000</span></div>
         </div>
+        
         
       </div>
       
@@ -16818,7 +16964,7 @@ District, Chachoengsao 24000</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152304_290_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152304_290_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16843,6 +16989,7 @@ Company</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -16919,7 +17066,7 @@ Company</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152327_310_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152327_310_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -16948,6 +17095,7 @@ www.hescosolution.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://www.hescosolution.com" target="_blank">www.hescosolution.com</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">67 Moo 4 Klongmaduea, Krathumbaen, Samutsakhon 74110</span></div>
         </div>
+        
         
       </div>
       
@@ -17024,7 +17172,7 @@ www.hescosolution.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195042_783_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195042_783_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -17044,6 +17192,7 @@ www.hescosolution.com</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://HOOF.BKK" target="_blank">HOOF.BKK</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">THE HUB PHAHOL-ARI PHANOLYOTHIN RD.</span></div>
         </div>
+        
         
       </div>
       
@@ -17120,7 +17269,7 @@ www.hescosolution.com</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152335_317_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152335_317_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -17157,6 +17306,7 @@ https://polimaxx.irpc.co.th</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://polimaxx.irpc.co.th" target="_blank">https://polimaxx.irpc.co.th</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">555/2 Energy Complex Building B, 6th Floor, Vibhavadi Rangsit Road, Chatuchak, Bangkok 10900 Thailand</span></div>
         </div>
+        
         
       </div>
       
@@ -17238,7 +17388,7 @@ K4597B
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152233_262_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152233_262_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -17300,6 +17450,7 @@ Facebook Instagram 微信公眾號</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">Shop H I, R/C, Block 1, Jardim Hang Kei, 248 Rua de Bruxelas, Macau; G/P, Lai Un Building, 12D Fatrada de Adolfo Loureire, Macau; Rua de Fernão Medes Pinto, Situa-se no espaço n.º 3 da Antiga Fábrica de Panchões Iec Long, Taipa, Macau; No 112 Praceta do Museu de Macau, Administration Building 5/F Platform, Macau; Shop G08, G/E, Grand Lisboa Palace, Rua do Tiro, Cotai, Macau</span></div>
         </div>
+        
         
       </div>
       
@@ -17376,7 +17527,7 @@ Facebook Instagram 微信公眾號</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195043_784_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195043_784_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -17396,6 +17547,7 @@ Facebook Instagram 微信公眾號</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">อาคารรังนาการ ชั้นที่ 9 เลขที่ 3 ถนนสาทรใต้ แขวงยานนาวา เขตสาทร กรุงเทพมหานคร 10120</span></div>
         </div>
+        
         
       </div>
       
@@ -17472,7 +17624,7 @@ Facebook Instagram 微信公眾號</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152234_263_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152234_263_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -17517,6 +17669,7 @@ English
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://SupremeMasterTV.com/max" target="_blank">SupremeMasterTV.com/max</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -17593,7 +17746,7 @@ English
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260601152235_264_60.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260601152235_264_60.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -17638,6 +17791,7 @@ Au Lac</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val"><a href="https://SupremeMasterTV.com/max" target="_blank">SupremeMasterTV.com/max</a></span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
@@ -17714,7 +17868,7 @@ Au Lac</div>
   <div class="card-body">
     <div class="card-image-col">
       <div class="card-img-wrap">
-        <img src="images/微信图片_20260602195102_798_2.jpg" alt="Business Card" onclick="showFullImage(this)">
+        <img src="file:///D:/A展会客户名片/微信图片_20260602195102_798_2.jpg" alt="Business Card" onclick="showFullImage(this)">
       </div>
       <div class="ocr-raw" onclick="toggleOCR(this)">
         <div class="ocr-toggle">▶ 查看原始OCR</div>
@@ -17734,6 +17888,7 @@ Au Lac</div>
           <div class="info-row"><span class="info-label">网址</span><span class="info-val">-</span></div>
           <div class="info-row"><span class="info-label">地址</span><span class="info-val">-</span></div>
         </div>
+        
         
       </div>
       
