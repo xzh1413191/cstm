@@ -61,7 +61,8 @@
       "Akkaram.sp@gmail.com"
     ],
     "website": [
-      "www.spenterprisecinternational.com"
+      "www.spenterprisecinternational.com",
+      "www.spenterpriseintl.com"
     ],
     "address": "75 Moo 7 Soi Prachasamran2, NongChok, Bangkok, Thailand 10530",
     "city": "Bangkok",
@@ -73,7 +74,16 @@
     "image_name": "微信图片_20260601150138_197_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601150138_197_60.jpg",
     "ocr_text": "+66 98 269 9774\nakkora.m@spenterprisecintl.com\nwww.spenterprisecinternational.com\n饼干厂\n\nAkkara Morakote\nอัครา โมรากอ\nFactory Manager\n\n+66 95 269 9974\nAkkaram.sp@gmail.com\n\n75 Moo 7 Soi Prachasamran2,\nNongChok, Bangkok, Thailand 10530\n75 หมู่ 7 ซอยประชาสัมรินทร์2 แขวงนองจอก กรุงเทพฯ 10530\n\nA.\n\n食品饼干类 制造工厂\n2001年2月19日成立\n主营 零食、即食食品、半成品食品、果干\n中型制造企业，OEM工厂\nPET透明罐、PET展示盒",
-    "card_index": 2
+    "card_index": 2,
+    "additional_contacts": [
+      {
+        "contact_name": "Nahatai Chiangpradit",
+        "title": "Head of Operation & International Business",
+        "email": "nahatai.c@spenterpriseintl.com",
+        "phone": "",
+        "notes": "国际业务负责人，展会名片（2026年6月）"
+      }
+    ]
   },
   {
     "company_name": "SAMROIYOD CORP.,LTD. FruitJoy",
@@ -1235,8 +1245,8 @@
       "floriafoods.com"
     ],
     "address": "",
-    "city": "",
-    "country": "",
+    "city": "Bangkok",
+    "country": "Thailand",
     "handwritten_notes": "800 ml 1/2\n1800 ml 1/3.",
     "notes_english": "800 ml 1/2\n1800 ml 1/3.",
     "certifications": [],
@@ -1735,14 +1745,15 @@
     ],
     "website": [],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "",
     "certifications": [],
     "business_type": "Protein snacks / food manufacturer",
     "image_name": "微信图片_20260601152226_257_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152226_257_60.jpg",
     "ocr_text": "take a BITE™\n\nNEXT GEN\nPROTEIN\nSNACKS\n\n✓ HIGH PROTEIN\n✓ BAKED NOT FRIED\n✓ NO MSG\n✓ MADE FROM\nALMOND\n\n11g\nPROTEIN\n/Bag 30g\n\nPROTEIN CHIPS\n\n11g\nPROTEIN\n/BAG 30g\n\nNEW\nALMOND\nPROTEIN\nCHIPS\nBBQ\n11g\n\nNEW\nALMOND\nPROTEIN\nCHIPS\nHIMALAYAN\nSALT\n11g\n\nBLACK\nTRUFFLE\nMALA\nBBQ\nHIMALAYAN SALT\n\n4g\nPROTEIN\n/BAG 10g\n\nNEW\nPROTEIN\nCHIPS\nMALA\nPROTEIN\nCHIPS\nBLACK\nTRUFFLE\nPROTEIN\nCHIPS\nBBQ\n\nMALA\nBLACK\nTRUFFLE\nBBQ\n\nNet Weight 10 g\n\nNet Weight 30 g\n\nSCAN ME!\n[QR Code]\n\nContact Export Team : exportxd@xongdur.com\nTel. / WhatsApp : +666-5691-9599, +666-1672-2514, +6681-489-9323",
-    "card_index": 62
+    "card_index": 62,
+    "city": "Bangkok"
   },
   {
     "company_name": "CHO HENG RICE VERMICELLI FACTORY CO.,LTD.",
@@ -1774,14 +1785,15 @@
     "email": [],
     "website": [],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "",
     "certifications": [],
     "business_type": "Food manufacturing / Bakery supplies",
     "image_name": "微信图片_20260601152229_259_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152229_259_60.jpg",
     "ocr_text": "Tulip\nEasy Glaze\nSeries\n\nTULIP\n\nWhat is Tulip Easy Glaze?\nIt is a ready-to-use glaze for coating, glazing,\ndipping and decorating baked goods or various\ndesserts. It helps add a professional shine to your\ntreats and allows you to create new menu ideas\ncreatively.\n\nAvailable in 4 Flavors :\nDark\nChocolate\nTiramisu\nMatcha\nCheese\n\nDARK\nCHOCOLATE\nEASY GLAZE\n\nMATCHA\nEASY GLAZE\n\nTIRAMISU\nEASY GLAZE\n\nCHEESE\nEASY GLAZE",
-    "card_index": 64
+    "card_index": 64,
+    "city": "Bangkok"
   },
   {
     "company_name": "ANDAMAN",
@@ -1810,14 +1822,15 @@
     "email": [],
     "website": [],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "",
     "certifications": [],
     "business_type": "FOOD",
     "image_name": "微信图片_20260601152232_261_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152232_261_60.jpg",
     "ocr_text": "V.T\nFOOD\nV.THAI FOOD PRODUCT CO.,LTD.\nNANG FAH\n(TUE KUNG) BRAND\nMADAM\nPum\nคุณปุ๊ม\nNANG FAH\n(TUE KUNG) BRAND\nMADAM PUM\n金泰\nมิ้น\nไท้\nFresh\n“ World of Oriental Food ”",
-    "card_index": 66
+    "card_index": 66,
+    "city": "Bangkok"
   },
   {
     "company_name": "Sam's",
@@ -1936,8 +1949,8 @@
     "email": [],
     "website": [],
     "address": "",
-    "city": "",
-    "country": "",
+    "city": "Bangkok",
+    "country": "Thailand",
     "handwritten_notes": "",
     "notes_english": "",
     "certifications": [],
@@ -2141,8 +2154,8 @@
     "email": [],
     "website": [],
     "address": "",
-    "city": "",
-    "country": "",
+    "city": "Bangkok",
+    "country": "Thailand",
     "handwritten_notes": "",
     "notes_english": "",
     "certifications": [],
@@ -2241,14 +2254,15 @@
     ],
     "website": [],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "",
     "certifications": [],
     "business_type": "Processed Seafood",
     "image_name": "微信图片_20260601152251_278_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152251_278_60.jpg",
     "ocr_text": "SOUTHERN BLACK KANGAROO CO., LTD.\nบริษัท เซฟเอ็ม แอลค์ แคนการู จำกัด\n南方黑袋鼠有限公司\nProduct Category : Processed Seafood\nประเภทสินค้า : อาหารทะเลแปรรูป\n产品类别 : 海鲜加工食品\nProduct : Crispy anchovies\nผลิตภัณฑ์ : ปลาดุกผ้างอบกรอบ\n产品类型 : 万拉品牌酥脆小银鱼\nติดต่อ / Contact\n📞 089-8893204\n📘 รินดา ทายทองผาภ\n✉️ teerawutmoo45@gmail.com\n\nLAYTRANG GROUP CO., LTD.\nบริษัท เลตรังกรุ๊ป จำกัด\n莱董集团有限公司\nProduct Category : Processed Seafood\nประเภทสินค้า : อาหารทะเลแปรรูป\n产品类别 : 海鲜加工食品\nProduct : Crab meat bell, Trang roasted pork bun\nผลิตภัณฑ์ : หอยจื้อเนื้อปู ซ่าลาป้าหมูย่างเมืองตรัง\n产品类型 : 蟹枣、泰国董里府叉烧包\nติดต่อ / Contact\n📞 075-217700 / 081-5996989\n📘 เลตรัง 2 , Laytrang 2\n✉️ Laytranggroup@gmail.com\n\nPHUKET KAEW\nร้านภูเก็ตแก้ว\n普吉凯奥商店\nProduct Category : Food & Beverage\nประเภทสินค้า : อาหารและเครื่องดื่ม\n产品类别 : 餐饮食品\nProduct : Sweet fish sauce and Thai fish puff\nผลิตภัณฑ์ : น้ำปลาหวานกุ้งแก้ว และ ขนมขบเคี้ยวใส่ปลากรู\n产品类型 : 虾干甜辣酱与鱼肉小酥饺\nติดต่อ / Contact\n📞 081-1720784 / 081-7846799\n📘 ภูเก็ตแก้ว น้ำปลาหวาน เกลือเกลือภูเก็ต\n✉️ nisagorn.0784@gmail.com\n\nBAAN PIYAWAN PART., LTD.\nห้างหุ้นส่วนจำกัด บ้านปิยวรรณ (สำนักงานใหญ่)\n皮亚万之家有限合伙公司 (总公司)\nProduct Category : Food & Beverage\nประเภทสินค้า : อาหารและเครื่องดื่ม\n产品类别 : 餐饮食品\nProduct : Tao Sor\nผลิตภัณฑ์ : เต้าส้อ\n产品类型 : 豆沙酥\nติดต่อ / Contact\n📞 076-220163\n📘 Baan Piyawan – บ้านปิยวรรณ ทุนนกทิศ\n✉️ -\n\nPREEYAPA DEARPEEM CO., LTD.\nบริษัท ปรียาภา เดียร์พีม จำกัด\n普莉娅帕·迪尔皮姆有限公司\nProduct Category : Food & Beverage\nประเภทสินค้า : อาหารและเครื่องดื่ม\n产品类别 : 餐饮食品\nProduct : Chilli paste\nผลิตภัณฑ์ : น้ำพริก\n产品类型 : 辣椒酱\nติดต่อ / Contact\n📞 063-7898519\n📘 น้ำพริกถั่วพุกเกต Phuket Chilli paste\n✉️ Pree.dp@hotmail.com\n\nFERMENTRADE SHRIMPFOODS CO., LTD.\nบริษัท เพอร์เมเนนท์ครับชิมพ์ฟูดส์ จำกัด\n弗门特鲜虾食品有限公司\nProduct Category : Processed Seafood\nประเภทสินค้า : อาหารทะเลแปรรูป\n产品类别 : 海鲜加工食品\nProduct : Shrimp Paste\nผลิตภัณฑ์ : กะปิ\n产品类型 : 虾酱\nติดต่อ / Contact\n📞 099-5041989\n📘 Ja-o Winutmittra\n✉️ Winutmittra@gmail.com",
-    "card_index": 83
+    "card_index": 83,
+    "city": "Bangkok"
   },
   {
     "company_name": "SUNSNACK FOODTECH CO.,LTD.",
@@ -2552,14 +2566,15 @@
     "email": [],
     "website": [],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "",
     "certifications": [],
     "business_type": "",
     "image_name": "微信图片_20260601152304_290_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152304_290_60.jpg",
     "ocr_text": "PRODUCT CATALOG\n\nEXCLUSIVE • FLAVORFUL • UNIQUE\n\nCube 9\nCompany",
-    "card_index": 95
+    "card_index": 95,
+    "city": "Bangkok"
   },
   {
     "company_name": "Hanmaru Co., Ltd.",
@@ -2571,8 +2586,8 @@
     "email": [],
     "website": [],
     "address": "",
-    "city": "",
-    "country": "",
+    "city": "Bangkok",
+    "country": "Thailand",
     "handwritten_notes": "",
     "notes_english": "",
     "certifications": [],
@@ -2626,14 +2641,15 @@
       "www.outletocoffee.com"
     ],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "",
     "certifications": [],
     "business_type": "Coffee supplier / Coffee equipment and products",
     "image_name": "微信图片_20260601152308_293_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152308_293_60.jpg",
     "ocr_text": "CATALOG & PRICELIST\nYOU NEVER BREW ALONE\n\nPERFECT ESPRESSO\nWWW.OUTLETOCOFFEE.COM TEL.02 754 4161\n\nJRL",
-    "card_index": 98
+    "card_index": 98,
+    "city": "Bangkok"
   },
   {
     "company_name": "Julie's Manufacturing Sdn. Bhd.",
@@ -2771,14 +2787,15 @@
       "www.srifabakery.co.th"
     ],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "烘焙品啊 可以热食 30",
     "certifications": [],
     "business_type": "Bakery",
     "image_name": "微信图片_20260601152314_299_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152314_299_60.jpg",
     "ocr_text": "Srifa\nBakery\n\nอริย์ธัช บารมีกิตติพัฒน์ (แดม)\nAritthat Barameekittipat (Dam)\n\nหัวหน้าส่วนงานขาย\nSales Supervisor\n\nTel : 082-4287961 Line ID : danger3015\nEmail : arithat.ba@srifabakery.co.th\nwww.srifabakery.co.th\n\n烘焙品啊 可以热食 30",
-    "card_index": 104
+    "card_index": 104,
+    "city": "Kanchanaburi"
   },
   {
     "company_name": "Bee Products THAI",
@@ -2796,14 +2813,15 @@
       "@beeproductsthai"
     ],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "做蜂蜜产品",
     "certifications": [],
     "business_type": "",
     "image_name": "微信图片_20260601152316_300_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152316_300_60.jpg",
     "ocr_text": "Company Name: Bee Products THAI  \nPerson Name: ARLAMPANG KHRUEASAI DUANG (MAPANG)  \nTitle: Marketing & Customer Relations Officer  \nPhone: Tel. (66) 94 626 9141, (66) 87 207 1333  \nEmail: E-mail: bpimk001@gmail.com  \nWebsite: @beeproductsthai (from QR code and text)  \nAddress: Not present  \nHandwritten Notes: 做蜂蜜产品 (written in blue ink)  \nAdditional Text (Thai): อารัมพางค์ เครือสายด้วง (มะปราง) เจ้าหน้าที่การตลาดและลูกค้าสัมพันธ์  \nLINE: @beeproductsthai",
-    "card_index": 105
+    "card_index": 105,
+    "city": "Bangkok"
   },
   {
     "company_name": "Charles&Charlotte Co.,Ltd.",
@@ -2847,14 +2865,15 @@
     ],
     "website": [],
     "address": "",
-    "country": "",
+    "country": "Thailand",
     "handwritten_notes": "",
     "certifications": [],
     "business_type": "",
     "image_name": "微信图片_20260601152318_302_60.jpg",
     "image_path": "D:/A展会客户名片\\微信图片_20260601152318_302_60.jpg",
     "ocr_text": "龐春英\nWendy PANG\n銷售經理\nSales Manager\n\nTel (853) 2882 8882\nsams.workshop.mo@gmail.com\nFuk Hei Group Limited\nFabrica De Alimentos Sam's Workshop\n\n森夢\nsam's",
-    "card_index": 107
+    "card_index": 107,
+    "city": "Bangkok"
   },
   {
     "company_name": "V.THAI FOOD PRODUCT CO.,LTD.",
