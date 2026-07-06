@@ -13,3 +13,5 @@ Notes:
 - The page now has browser-local review controls: audit done, manual T0-T6, main-product confirmation, direct-product-fit confirmation, company-scale confirmation, ChatGPT/network checked and review notes.
 - The page also has follow-up tracking controls: current stage, channel, latest action date, latest action, next follow-up date, next action, owner and result notes.
 - Review and follow-up results are saved in each reviewer's browser localStorage. They are not automatically synced online. Reviewers must export CSV or JSON and send the file back to Kevin.
+
+Pages refresh marker: 2026-07-06 11:57 Asia/Shanghai - filter fix df02ccf.
