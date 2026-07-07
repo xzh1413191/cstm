@@ -15,6 +15,7 @@ Notes:
 - Review and follow-up results are saved in each reviewer's browser localStorage when Supabase is not configured.
 - Supabase sync is now scaffolded. Run `supabase-schema.sql` in the target Supabase project, then fill `supabase-config.js` with the project URL and anon/publishable key. After that, reviewers opening this page will load and save shared review/follow-up state through Supabase.
 - Current sync model is last-write-wins per `workbench_id`. Use the reviewer name box so each update records `updated_by`.
+- 2026-07-07 China-priority adjustment: China mainland exhibitors from the new 90-candidate pool are marked `HOLD` for now. Current outreach priority is China-outside customers first.
 
 Pages refresh marker: 2026-07-06 11:57 Asia/Shanghai - filter fix df02ccf.
 
