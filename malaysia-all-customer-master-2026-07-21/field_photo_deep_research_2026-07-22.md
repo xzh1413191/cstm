@@ -18,6 +18,7 @@
 - [INFERRED, HIGH] The best entry is factory purchasing, packaging sourcing or packaging development. Export sales can route the enquiry but is not assumed to own packaging decisions.
 - [KNOWN, HIGH] Contact: +603-3197 2857; sales@happyalliance.com; sales@captaindolphin.com.my; captaindolphinmy@gmail.com.
 - [INFERRED, HIGH] Do not drive to Tanjong Sepat without a confirmed meeting because it is outside central Klang Valley.
+- [KNOWN, HIGH] Targeted Gmail draft `r-4371190131730905244` was created on 2026-07-22. It focuses on sealing consistency, lid seating, impact damage, handle strength and a sample-review meeting. It has not been sent.
 
 Sources: [Happy Alliance LinkedIn](https://www.linkedin.com/company/happyalliance/), [Captain Dolphin About](https://captaindolphin.com.my/about-us/), [Nata de Coco 1.5 kg category](https://captaindolphin.com.my/product-category/nata-de-coco-in-syrup/)
 
