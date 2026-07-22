@@ -1,16 +1,16 @@
 {
-  "generated": "2026-07-21",
-  "input_rows": 1070,
-  "final_unique_companies": 686,
-  "merged_duplicate_rows": 384,
-  "contactable_companies": 258,
-  "route_ready_companies": 242,
+  "generated": "2026-07-22",
+  "input_rows": 1074,
+  "final_unique_companies": 688,
+  "merged_duplicate_rows": 386,
+  "contactable_companies": 261,
+  "route_ready_companies": 244,
   "tier_counts": {
     "T0": 70,
-    "T0/T1": 38,
+    "T0/T1": 39,
     "T0-T1": 2,
     "T1": 117,
-    "T1/T2": 87,
+    "T1/T2": 88,
     "T1-T2": 5,
     "T1-T3LONG-TERM": 1,
     "T1-T3": 1,
@@ -37,13 +37,14 @@
     "MARKETINTEL": 1
   },
   "track_counts": {
-    "hot_soup_valve": 74,
+    "hot_soup_valve": 75,
     "external_sourcing": 12,
-    "rigid_food_packaging": 571,
-    "pet_packaging": 121,
+    "rigid_food_packaging": 573,
+    "pet_packaging": 79,
     "research_only": 86
   },
   "source_rows": {
+    "2026-07-22 field photo customer enrichment": 4,
     "2026-07-21 field photo customer enrichment": 8,
     "2026-07-18 consolidated master": 524,
     "2026-07-20 field visit plan": 7,
@@ -57,10 +58,10 @@
     "2026-07-11 exhibition booth walklist": 46
   },
   "source_merges": {
-    "2026-07-18 consolidated master": 6,
+    "2026-07-18 consolidated master": 7,
     "2026-07-20 field visit plan": 6,
     "2026-07-20 supermarket field photos": 2,
-    "2026-07-17 corrected supermarket research": 7,
+    "2026-07-17 corrected supermarket research": 8,
     "2026-07-17 corrected Google Maps discovery": 118,
     "2026-07-12 Malaysia F&B chain pool": 7,
     "2026-07-12 export-scale hot soup pool": 15,
